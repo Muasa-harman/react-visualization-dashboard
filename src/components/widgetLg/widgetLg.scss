@@ -1,0 +1,35 @@
+.widgetLg{
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 15px -10px #000000;
+    box-shadow: 0px 0px 15px -10px #000000; 
+    display: flex;
+    justify-content: space-between;
+
+    
+    .left{
+
+        .widgetImg{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+    }
+
+    .right{
+
+        .widgetSmUsername{
+            font-weight: 500;
+        }
+        
+        .pledge{
+            background-color: rgb(102, 219, 102);
+            border-radius: 20px;
+            padding: 10px;
+            border: none;
+            list-style: none;
+           
+        }
+    }
+}
